@@ -1,0 +1,60 @@
+# Bases e dados corporativos
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.db
+*.sqlite
+*.sql
+
+# Dados reais e exports internos
+data/raw/
+data/private/
+data/real/
+private/
+exports/
+reports/
+relatorios/
+output/
+outputs/
+
+# Dashboards preenchidos / versões de produção
+*_real.html
+*_interno.html
+*_diretoria.html
+*_offline.html
+dashboard-real.html
+painel-real.html
+painel_tvsu_2026.html
+analise_complementar_tvsu.html
+
+# Arquivos gerados para apresentação
+*.pdf
+*.pptx
+*.docx
+
+# Capturas e anexos internos
+screenshots/
+prints/
+evidencias/
+*.png
+*.jpg
+*.jpeg
+!assets/logo.png
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+config.local.*
+secrets/
+credentials/
+*.pem
+*.key
+
+# Sistema operacional / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
