@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel Comercial — Demonstração</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head><body>
+<div class="demo-note">⚠ Dados fictícios — projeto de demonstração. Nenhuma informação comercial real está incluída.</div>
+<header>
+<div class="brand"><img src="assets/logo.png" alt="Marca">
+<div><h1>Painel <span>Comercial</span> — Demo</h1>
+<div class="sub">Acumulado Jan–Ago · Meta × Realizado × Ano anterior · Dados sintéticos</div></div></div>
+<div class="tag">Prévia Executiva • 8 meses</div>
+</header>
+
+<h2>Consolidado</h2>
+<div class="grid k3">
+<div class="card kpi"><div class="lab">Meta</div><div class="val" id="k-orc"></div></div>
+<div class="card kpi"><div class="lab">Realizado</div><div class="val" id="k-rea"></div></div>
+<div class="card kpi"><div class="lab">Ating. vs Ano Anterior</div><div class="val" id="k-var"></div></div>
+</div>
+
+<h2>Privado — Meta × Realizado</h2>
+<div class="card"><div class="ch"><canvas id="g-priv-mr"></canvas></div></div>
+<h2>Privado — Ano Atual × Anterior</h2>
+<div class="card"><div class="ch"><canvas id="g-priv-yy"></canvas></div></div>
+
+<h2 class="pub">Público — Meta × Realizado</h2>
+<div class="card"><div class="ch"><canvas id="g-pub-mr"></canvas></div></div>
+<h2 class="pub">Público — Ano Atual × Anterior</h2>
+<div class="card"><div class="ch"><canvas id="g-pub-yy"></canvas></div></div>
+
+<h2 class="dz">Desconto Comercial</h2>
+<div class="grid k4">
+<div class="card kpi"><div class="lab">Desconto médio</div><div class="val" id="k-descmed"></div></div>
+<div class="card kpi"><div class="lab">Menor desconto</div><div class="val up" id="k-descmin"></div></div>
+<div class="card kpi"><div class="lab">Maior desconto</div><div class="val down" id="k-descmax"></div></div>
+<div class="card kpi"><div class="lab">Participação média</div><div class="val" id="k-partmed"></div></div>
+</div>
+<div class="grid k2" style="margin-top:16px">
+<div class="card"><div class="ch"><canvas id="g-desc"></canvas></div></div>
+<div class="card"><table><thead><tr><th>Período</th><th>% Desc.</th><th>% Part.</th></tr></thead><tbody id="q-desc"></tbody></table></div>
+</div>
+
+<h2>Ranking de Agências</h2>
+<div class="grid k2">
+<div class="card"><div class="ch"><canvas id="g-ag"></canvas></div></div>
+<div class="card"><table><thead><tr><th>Agência</th><th>Valor</th><th>Share</th></tr></thead><tbody id="q-ag"></tbody></table></div>
+</div>
+
+<h2>Top Clientes e Setores</h2>
+<div class="grid k2">
+<div class="card"><div class="ch"><canvas id="g-cli"></canvas></div></div>
+<div class="card"><div class="ch"><canvas id="g-set"></canvas></div></div>
+</div>
+
+<h2>Base de Clientes — Ano Atual × Anterior</h2>
+<div class="grid k4">
+<div class="card kpi"><div class="lab">Clientes ano anterior</div><div class="val" id="k-c25"></div></div>
+<div class="card kpi"><div class="lab">Clientes ano atual</div><div class="val" id="k-c26"></div></div>
+<div class="card kpi"><div class="lab">Retenção</div><div class="val" id="k-ret"></div></div>
+<div class="card kpi"><div class="lab">Churn</div><div class="val down" id="k-churn"></div></div>
+</div>
+<div class="grid k3" style="margin-top:16px">
+<div class="card kpi"><div class="lab">Receita base mantida</div><div class="val up" id="k-mant"></div></div>
+<div class="card kpi"><div class="lab">Novos clientes</div><div class="val up" id="k-novos"></div></div>
+<div class="card kpi"><div class="lab">Net Revenue Retention</div><div class="val wr" id="k-nrr"></div></div>
+</div>
+
+<footer><img class="flogo" src="assets/logo.png" alt="Marca">
+<div>Painel Comercial — Demonstração · Dados sintéticos</div>
+<div style="margin-top:4px;opacity:.7">Projeto de portfólio — sem vínculo com dados reais de qualquer empresa</div></footer>
+
+<script src="js/app.js"></script>
+</body></html>
