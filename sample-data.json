@@ -1,0 +1,301 @@
+{
+  "periodo": "Jan–Ago/2026",
+  "consolidado": {
+    "orcado": 6337287,
+    "realizado": 6625953,
+    "historico": 6464825
+  },
+  "privado": {
+    "orcado": 5574783,
+    "realizado": 5764423,
+    "historico": 5552170,
+    "meses": [
+      "Jan",
+      "Fev",
+      "Mar",
+      "Abr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Ago"
+    ],
+    "orcado_m": [
+      413717,
+      464556,
+      627255,
+      723076,
+      784386,
+      657338,
+      963913,
+      940541
+    ],
+    "realizado_m": [
+      593465,
+      597625,
+      668601,
+      664894,
+      835045,
+      730645,
+      803380,
+      870767
+    ],
+    "historico_m": [
+      494472,
+      499607,
+      612601,
+      724402,
+      831508,
+      635234,
+      896275,
+      858070
+    ]
+  },
+  "publico": {
+    "orcado": 762504,
+    "realizado": 861531,
+    "historico": 912655,
+    "meses": [
+      "Jan",
+      "Fev",
+      "Mar",
+      "Abr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Ago"
+    ],
+    "orcado_m": [
+      114488,
+      65417,
+      70417,
+      70417,
+      75417,
+      171517,
+      79417,
+      115417
+    ],
+    "realizado_m": [
+      61363,
+      83111,
+      150232,
+      143458,
+      83354,
+      195704,
+      34694,
+      109615
+    ],
+    "historico_m": [
+      141713,
+      136328,
+      88074,
+      109457,
+      82435,
+      186882,
+      139299,
+      28467
+    ]
+  },
+  "desconto": {
+    "meses": [
+      "Jan",
+      "Fev",
+      "Mar",
+      "Abr",
+      "Mai",
+      "Jun",
+      "Jul",
+      "Ago"
+    ],
+    "pct_desc": [
+      33.3,
+      36.2,
+      34.2,
+      36.4,
+      36.4,
+      33.8,
+      36.7,
+      35.2
+    ],
+    "pct_part": [
+      64.92,
+      69.81,
+      148.37,
+      69.14,
+      72.83,
+      77.07,
+      55.92,
+      57.82
+    ],
+    "media_desc": 35.1,
+    "media_part": 77.39
+  },
+  "ranking_agencias": [
+    {
+      "nome": "Agência Exemplo 1",
+      "valor": 420000,
+      "share": 18.2
+    },
+    {
+      "nome": "Agência Exemplo 2",
+      "valor": 365000,
+      "share": 15.8
+    },
+    {
+      "nome": "Agência Exemplo 3",
+      "valor": 298000,
+      "share": 12.9
+    },
+    {
+      "nome": "Agência Exemplo 4",
+      "valor": 251000,
+      "share": 10.9
+    },
+    {
+      "nome": "Agência Exemplo 5",
+      "valor": 198000,
+      "share": 8.6
+    },
+    {
+      "nome": "Agência Exemplo 6",
+      "valor": 152000,
+      "share": 6.6
+    },
+    {
+      "nome": "Agência Exemplo 7",
+      "valor": 121000,
+      "share": 5.2
+    },
+    {
+      "nome": "Agência Exemplo 8",
+      "valor": 98000,
+      "share": 4.3
+    },
+    {
+      "nome": "Agência Exemplo 9",
+      "valor": 76000,
+      "share": 3.3
+    },
+    {
+      "nome": "Agência Exemplo 10",
+      "valor": 54000,
+      "share": 2.3
+    }
+  ],
+  "top_clientes": [
+    {
+      "nome": "Cliente Alpha",
+      "hist": 320000,
+      "real": 365000
+    },
+    {
+      "nome": "Cliente Beta",
+      "hist": 210000,
+      "real": 248000
+    },
+    {
+      "nome": "Cliente Gamma",
+      "hist": 180000,
+      "real": 195000
+    },
+    {
+      "nome": "Cliente Delta",
+      "hist": 95000,
+      "real": 172000
+    },
+    {
+      "nome": "Cliente Epsilon",
+      "hist": 140000,
+      "real": 150000
+    },
+    {
+      "nome": "Cliente Zeta",
+      "hist": 120000,
+      "real": 132000
+    },
+    {
+      "nome": "Cliente Eta",
+      "hist": 88000,
+      "real": 110000
+    },
+    {
+      "nome": "Cliente Theta",
+      "hist": 70000,
+      "real": 98000
+    },
+    {
+      "nome": "Cliente Iota",
+      "hist": 92000,
+      "real": 95000
+    },
+    {
+      "nome": "Cliente Kappa",
+      "hist": 40000,
+      "real": 80000
+    }
+  ],
+  "setores": [
+    {
+      "nome": "Setor A",
+      "hist": 1000000,
+      "real": 1120000
+    },
+    {
+      "nome": "Setor B",
+      "hist": 800000,
+      "real": 740000
+    },
+    {
+      "nome": "Setor C",
+      "hist": 600000,
+      "real": 615000
+    },
+    {
+      "nome": "Setor D",
+      "hist": 500000,
+      "real": 390000
+    },
+    {
+      "nome": "Setor E",
+      "hist": 350000,
+      "real": 410000
+    },
+    {
+      "nome": "Setor F",
+      "hist": 300000,
+      "real": 375000
+    },
+    {
+      "nome": "Setor G",
+      "hist": 200000,
+      "real": 360000
+    },
+    {
+      "nome": "Setor H",
+      "hist": 250000,
+      "real": 220000
+    },
+    {
+      "nome": "Setor I",
+      "hist": 60000,
+      "real": 90000
+    },
+    {
+      "nome": "Outros",
+      "hist": 120000,
+      "real": 140000
+    }
+  ],
+  "base_clientes": {
+    "clientes_2025": 151,
+    "clientes_2026": 151,
+    "recorrentes": 80,
+    "novos": 71,
+    "churn": 71,
+    "receita_2025": 6464825,
+    "receita_2026": 6625953,
+    "receita_mantidos_2025": 5410801,
+    "receita_mantidos_2026": 5704004,
+    "receita_novos": 921949,
+    "nrr": 88
+  }
+}
